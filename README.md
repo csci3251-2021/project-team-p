@@ -1,6 +1,7 @@
-# This team hasn't started yet...
+# Introduction
 
-Check back later!
-
-**Please read `tasks.md` to start your work.**
+This is a group project about how to work on github as a team.
  
+## Code
+
+## Contributors
