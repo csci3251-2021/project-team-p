@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 What our team should do:
 1. Task 1 (done)
 2. Task 2 (done)
