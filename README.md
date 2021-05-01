@@ -1,13 +1,13 @@
-#Introduction
+# Introduction
 What our team should do:
-1. Task 1 (done)
-2. Task 2 (done)
-3. Task 3 (in progress)
-4. Task 4
-5. Task 5
-6. Task 6
-7. Task 7
-8. Task 8
+- [x] Task 1: Create new issues
+- [x] Task 2: Create a new project board and set up automations
+- [x] Task 3: Set up readme.md
+- [x] Task 4: Edit contributors in readme.md
+- [x] Task 5: Check previous tasks
+- [ ] Task 6: Write C code
+- [ ] Task 7: Get a status badge
+- [ ] Task 8: Promote the repository
 
 This is a group project about how to work on github as a team.
 
@@ -16,5 +16,6 @@ This is a group project about how to work on github as a team.
 
 # Contributors
 {% for stu in site.stu %}
-  <li><img src="{{ stu.image }}">@<a herf="https://github.com/{{stu.user}}">{{ stu.name }}</a>({{ stu.name }})<ul><p>{{ stu.content | markdownify }}</p></ul></li>
+  - <img src="{{ stu.image }}" width="60" height="60" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a>({{ stu.name }})
+  - {{ stu.content | markdownify }}
 {% endfor %}
