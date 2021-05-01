@@ -16,6 +16,8 @@ This is a group project about how to work on github as a team.
 
 # Contributors
 {% for stu in site.stu %}
+
   - <img src="{{ stu.image }}" width="60" height="60" /><a href="https://github.com/{{ stu.user }}">@{{ stu.user }}</a>({{ stu.name }})
   - {{ stu.content | markdownify }}
+
 {% endfor %}
