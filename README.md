@@ -5,9 +5,9 @@ What our team should do:
 - [x] Task 3: Set up readme.md
 - [x] Task 4: Edit contributors in readme.md
 - [x] Task 5: Check previous tasks
-- [ ] Task 6: Write C code
+- [x] Task 6: Write C code
 - [ ] Task 7: Get a status badge
-- [ ] Task 8: Promote the repository
+- [x] Task 8: Promote the repository
 
 This is a group project about how to work on github as a team.
 
@@ -21,3 +21,6 @@ This is a group project about how to work on github as a team.
   - {{ stu.content | markdownify }}
 
 {% endfor %}
+
+---
+Last updated: {{ site.time }}
