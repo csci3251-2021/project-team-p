@@ -15,24 +15,15 @@ What our team should do:
 {% include_relative project-team-p/code.c %}
 
 ```
-name: C/C++ CI
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-    - name: run code.c
-      run: gcc code.c -o code; ./code
+#include <stdio.h>
+ 
+int main(void) {
+	printf("Hello world!");
+	return 0;
+}
 ```
+[![C/C++ CI](https://github.com/csci3251-2021/project-team-p/actions/workflows/main.yml/badge.svg)](https://github.com/csci3251-2021/project-team-p/actions/workflows/main.yml)
+
 
 # Contributors
 {% for stu in site.stu %}
