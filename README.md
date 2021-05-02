@@ -12,7 +12,7 @@ What our team should do:
 
 
 # Code
-{% include_relative project-team-p/code.c %}
+{% include_relative code.c %}
 
 ```
 #include <stdio.h>
