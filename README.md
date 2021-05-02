@@ -12,15 +12,26 @@ What our team should do:
 
 
 # Code
-{% include_relative code.c %}
+{% include_relative project-team-p/code.c %}
 
-```c
-include <stdio.h>
- 
-int main(void) {
-	printf("Hello world!");
-	return 0;
-}
+```
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: run code.c
+      run: gcc code.c -o code; ./code
 ```
 
 # Contributors
