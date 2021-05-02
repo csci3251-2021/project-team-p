@@ -14,7 +14,7 @@ What our team should do:
 # Code
 {% include_relative code.c %}
 
-```
+```c
 #include <stdio.h>
  
 int main(void) {
